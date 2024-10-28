@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-Regular.otf")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-Medium.otf")
+    format("woff2");
+  font-weight: 400;
+  font-style: Medium;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-Bold.otf")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-Light.otf")
+    format("woff2");
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-Black.otf")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("./assest/font/Aktiv.Grotesk/Aktiv.Grotesk/AktivGrotesk-XBold.otf")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+body {
+  font-family: "aktiv-grotesk-extended";
+}
+.hero {
+  width: 100%;
+  background-image: url("https://www.drpepper.com/cms/delivery/media/MCK34TTHW255BEFIQM7YKTKTRZKI");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 5rem;
+}
+
+.navbar-toggler-icon {
+  width: 23px;
+}
+.navbar-toggler {
+  padding: 2px 6px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.brand {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.dr_tXt_HeD {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1.05rem;
+}
+.dr_tXt_CoTCoT {
+  padding: 28rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.dr_tXt_CoT_ConT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 590px;
+  width: 80%;
+}
+.dr_tXt_PrG {
+  font-weight: 300;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+.dr_tXt_HeD_Wr {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #900d2c;
+}
+
+.dr_tXt_paG_Wr {
+  text-align: justify;
+}
+.drIM {
+  width: 100%;
+  object-fit: cover;
+  scale: 1.4;
+}
+.imgConT {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.Why-section {
+  margin-top: -100px;
+}
+
+.dr-CaRS_ConT {
+  width: 100%;
+}
+
+.slide-2 img {
+  width: 499px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn:hover {
+  background-color: #cc123e;
+  border-color: #cc123e;
+}
+
+.hidden {
+  display: none;
+  border: 1px solid red !important;
+}
+
+@media (min-width: 500px) {
+  .dr_tXt_CoTCoT {
+    padding: 38rem 0 0 0;
+  }
+  .Why-section {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 670px) {
+  .dr_tXt_CoTCoT {
+    padding: 45rem 0 0 0;
+  }
+}
+@media (min-width: 760px) {
+  .dr_tXt_CoTCoT {
+    padding: 55rem 0 0 0;
+  }
+  .dr_tXt_HeD {
+    font-size: 30px;
+  }
+  .dr_tXt_PrG {
+    font-size: 18px;
+    letter-spacing: 1.3px;
+  }
+}
+@media (min-width: 1000px) {
+  .hero {
+    background-image: url("https://www.drpepper.com/cms/delivery/media/MCQCSF57Z77NDZ7B6NWUJ3Y57XMI");
+    background-size: cover;
+    width: 100%;
+  }
+  .dr_tXt_CoTCoT {
+    padding: 22rem 0 0 2rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dr_tXt_HeD {
+    font-size: 30px;
+    text-align: left;
+  }
+  .dr_tXt_PrG {
+    font-size: 24px;
+    text-align: left;
+  }
+  .dr_tXt_CoT_ConT {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    max-width: 590px;
+    width: 80%;
+    margin-bottom: 15rem;
+  }
+  .dr-CaRS_ConT {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover;
+  }
+  .dr_tXt_CoTCoT {
+    padding: 28rem 0 0 5rem;
+  }
+}
